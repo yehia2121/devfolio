@@ -15,6 +15,11 @@ img {
     display: block;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20%;
+}
+
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .collapse ul li a {
@@ -33,6 +38,43 @@ img {
 .home .fs-1 {
     font-size: 3rem !important;
 }
+
+.home .typewriter h4 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden;
+    border-right: .15em solid #fff;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+        typing 1.2s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #fff
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .navbar {
     position: fixed;
