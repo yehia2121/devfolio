@@ -1,0 +1,239 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.collapse ul li a {
+    text-transform: uppercase;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.home {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/bg-img/cover-img2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.home .fs-1 {
+    font-size: 3rem !important;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+.navbar .container-fluid button {
+    background-color: #fff !important;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.about {
+    text-transform: capitalize;
+    width: 95%;
+    margin: auto;
+}
+
+.about .container-fluid .row .about-right h2.fs-1 {
+    position: relative;
+}
+
+.about .container-fluid .row .about-right h2.fs-1::after {
+    content: '';
+    position: absolute;
+    top: 115%;
+    left: 0;
+    height: 0.2rem;
+    width: 33%;
+    background-color: #0D6EFD;
+}
+
+.about div .bar {
+    height: 0.8rem;
+}
+
+.about div .bar .w-85 {
+    width: 85%;
+}
+
+.about div .bar .w-90 {
+    width: 90%;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.heading div p {
+    position: relative;
+}
+
+.heading div p::after {
+    content: '';
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2.2rem;
+    height: 0.4rem;
+    background-color: #0D6EFD;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.information .services {
+    width: 95%;
+    margin: auto;
+}
+
+.information .services .card .icon {
+    color: #000;
+    width: 130px;
+    height: 130px;
+    border: #0D6EFD solid 10px;
+    transition: all 500ms;
+}
+
+.information .services .card:hover .icon {
+    color: #fff;
+    background-color: #0D6EFD;
+    border: 10px solid #CDE1F8;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.counter {
+    background: linear-gradient(rgba(59, 144, 255, 0.5), rgba(59, 144, 255, 0.5)), url(../imgs/bg-img/bg15.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.counter .icon {
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.portfolio .card {
+    width: 95%;
+    margin: auto;
+}
+
+.portfolio .card img {
+    transition: transform 500ms;
+}
+
+.portfolio .card:hover img {
+    transform: scale(1.2);
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.slider {
+    background: linear-gradient(rgba(59, 144, 255, 0.5), rgba(59, 144, 255, 0.5)), url(../imgs/bg-img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider .slide .carousel-inner .carousel-item .w-90 {
+    width: 90%;
+    margin: auto;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.blog .w-90 {
+    width: 90%;
+    margin: auto;
+}
+
+.blog .d-flex .card div .position-relative p {
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.blog .card div .d-flex div .rounded-circle {
+    width: 2rem;
+    height: 2rem;
+}
+
+.blog .card div .card-body h5 {
+    transition: color 500ms;
+}
+
+.blog .d-flex .card div .bottom-info h6 {
+    transition: color 500ms;
+}
+
+.blog .d-flex .card div .bottom-info h6:hover {
+    color: #0D6EFD;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.form-back {
+    background: linear-gradient(rgba(59, 144, 255, 0.5), rgba(59, 144, 255, 0.5)), url(../imgs/bg-img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.form-back .w-90 {
+    width: 90%;
+}
+
+.form-back .container-fluid h6 {
+    position: relative;
+}
+
+.form-back .container-fluid h6::after {
+    content: '';
+    position: absolute;
+    bottom: -28%;
+    left: 0;
+    width: 28%;
+    height: 0.2rem;
+    background-color: #0D6EFD;
+}
+
+.form-back .container-fluid .form-info form .form-1 .d-grid button:hover {
+    background-color: #3393FF !important;
+}
+
+.form-back .container-fluid .get-in .my-3 .border {
+    transition: all 500ms;
+}
+
+.form-back .container-fluid .get-in .my-3 .border:hover {
+    color: #fff;
+    background-color: #0078FF;
+    border-color: #CDE1F8;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer {
+    background-color: #0062D3;
+}

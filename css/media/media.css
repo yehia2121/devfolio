@@ -1,0 +1,392 @@
+/* xsmall */
+@media screen and (width <=640px) {
+
+    .about .container-fluid .row .about-right h2.fs-1 {
+        position: relative;
+    }
+
+    .about .container-fluid .row .about-right h2.fs-1::after {
+        content: '';
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        width: 25%;
+        height: 0.2rem;
+        background-color: #0D6EFD;
+    }
+
+
+    .about .container-fluid .row {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .about .container-fluid .row .about-right {
+        margin-top: 20px;
+    }
+
+}
+
+/* small */
+@media screen and (640px < width <=768px) {
+
+    .about .container-fluid .row .about-right h2.fs-1 {
+        position: relative;
+    }
+
+    .about .container-fluid .row .about-right h2.fs-1::after {
+        content: '';
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        width: 15%;
+        height: 0.2rem;
+        background-color: #0D6EFD;
+    }
+
+    .information .services {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .information .services .card {
+        width: 31%;
+    }
+
+    .counter {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .counter .counter-card {
+        width: 30%;
+    }
+
+    .portfolio .card {
+        width: 30%;
+    }
+
+    .portfolio .portfolio-card {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slider .carousel .carousel-inner .carousel-item .d-flex {
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .slider .carousel .carousel-inner .carousel-item .slider-info {
+        width: 50%;
+    }
+
+    .blog .d-flex {
+        width: 90%;
+    }
+
+    .blog .d-flex .card {
+        width: 30%;
+    }
+
+    .form-back .container-fluid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 8px 8px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in";
+    }
+
+    .form-info {
+        grid-area: form-info;
+    }
+
+    .get-in {
+        grid-area: get-in;
+    }
+
+
+}
+
+/* large */
+@media screen and (768px < width <=1024px) {
+
+    .about .container-fluid .row .about-right h2.fs-1 {
+        position: relative;
+    }
+
+    .about .container-fluid .row .about-right h2.fs-1::after {
+        content: '';
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        width: 25%;
+        height: 0.2rem;
+        background-color: #0D6EFD;
+    }
+
+    .information .services {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .information .services .card {
+        width: 31%;
+    }
+
+    .counter {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .counter .counter-card {
+        width: 30%;
+    }
+
+    .portfolio .card {
+        width: 30%;
+    }
+
+    .portfolio .portfolio-card {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slider .carousel .carousel-inner .carousel-item .d-flex {
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .slider .carousel .carousel-inner .carousel-item .slider-info {
+        width: 50%;
+    }
+
+    .blog .d-flex {
+        width: 90%;
+    }
+
+    .blog .d-flex .card {
+        width: 30%;
+    }
+
+    .blog .d-flex .card div .position-relative p {
+        width: 6%;
+        text-align: center;
+        bottom: -18%;
+    }
+
+    .form-back .container-fluid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 8px 8px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in";
+    }
+
+    .form-info {
+        grid-area: form-info;
+    }
+
+    .get-in {
+        grid-area: get-in;
+    }
+
+
+}
+
+/* xl */
+@media screen and (1024px < width <=1280px) {
+
+    .about .about-me h6 {
+        position: relative;
+    }
+
+    .about .about-me h6::after {
+        content: '';
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        width: 25%;
+        height: 0.2rem;
+        background-color: #0D6EFD;
+    }
+
+    .information .services {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .information .services .card {
+        width: 31%;
+    }
+
+    .counter {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .counter .counter-card {
+        width: 30%;
+    }
+
+    .portfolio .card {
+        width: 30%;
+    }
+
+    .portfolio .portfolio-card {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slider .carousel .carousel-inner .carousel-item .d-flex {
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .slider .carousel .carousel-inner .carousel-item .slider-info {
+        width: 50%;
+    }
+
+    .blog .d-flex {
+        width: 90%;
+    }
+
+    .blog .d-flex .card {
+        width: 30%;
+    }
+
+    .form-back .container-fluid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 8px 8px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in";
+    }
+
+    .form-info {
+        grid-area: form-info;
+    }
+
+    .get-in {
+        grid-area: get-in;
+    }
+
+}
+
+/* xxl */
+@media screen and (1280px < width <=1536px) {
+
+    .about .about-me h6 {
+        position: relative;
+    }
+
+    .about .about-me h6::after {
+        content: '';
+        position: absolute;
+        bottom: -20%;
+        left: 0;
+        width: 25%;
+        height: 0.2rem;
+        background-color: #0D6EFD;
+    }
+
+    .information .services {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .information .services .card {
+        width: 31%;
+    }
+
+    .counter {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .counter .counter-card {
+        width: 30%;
+    }
+
+    .portfolio .card {
+        width: 30%;
+    }
+
+    .portfolio .portfolio-card {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slider .carousel .carousel-inner .carousel-item .d-flex {
+        width: 40%;
+        height: 40%;
+        margin: auto;
+    }
+
+    .slider .carousel .carousel-inner .carousel-item .slider-info {
+        width: 50%;
+    }
+
+    .blog .d-flex {
+        width: 90%;
+    }
+
+    .blog .d-flex .card {
+        width: 30%;
+    }
+
+    .form-back .container-fluid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 8px 8px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
+            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in";
+    }
+
+    .form-info {
+        grid-area: form-info;
+    }
+
+    .get-in {
+        grid-area: get-in;
+    }
+
+}
