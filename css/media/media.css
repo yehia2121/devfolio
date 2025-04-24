@@ -94,26 +94,11 @@
         width: 30%;
     }
 
-    .form-back .container-fluid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 8px 8px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in";
-    }
+    .blog .d-flex .card div .position-relative p {
+        width: 70%;
+        text-align: center;
 
-    .form-info {
-        grid-area: form-info;
     }
-
-    .get-in {
-        grid-area: get-in;
-    }
-
 
 }
 
@@ -185,31 +170,10 @@
     }
 
     .blog .d-flex .card div .position-relative p {
-        width: 6%;
+        width: 70%;
         text-align: center;
         bottom: -18%;
     }
-
-    .form-back .container-fluid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 8px 8px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in";
-    }
-
-    .form-info {
-        grid-area: form-info;
-    }
-
-    .get-in {
-        grid-area: get-in;
-    }
-
 
 }
 
@@ -280,25 +244,6 @@
         width: 30%;
     }
 
-    .form-back .container-fluid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 8px 8px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in";
-    }
-
-    .form-info {
-        grid-area: form-info;
-    }
-
-    .get-in {
-        grid-area: get-in;
-    }
 
 }
 
@@ -369,24 +314,5 @@
         width: 30%;
     }
 
-    .form-back .container-fluid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 8px 8px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in"
-            "form-info form-info form-info form-info form-info form-info get-in get-in get-in get-in get-in get-in";
-    }
-
-    .form-info {
-        grid-area: form-info;
-    }
-
-    .get-in {
-        grid-area: get-in;
-    }
 
 }
