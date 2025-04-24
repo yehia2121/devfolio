@@ -25,6 +25,18 @@
         margin-top: 20px;
     }
 
+    .form-back .container-fluid {
+        flex-direction: column;
+    }
+
+    .form-back .container-fluid .get-in {
+        width: 100% !important;
+    }
+
+    .form-back .container-fluid .form-info {
+        width: 100% !important;
+    }
+
 }
 
 /* small */
@@ -97,7 +109,18 @@
     .blog .d-flex .card div .position-relative p {
         width: 70%;
         text-align: center;
+    }
 
+    .form-back .container-fluid {
+        flex-direction: column;
+    }
+
+    .form-back .container-fluid .get-in {
+        width: 100% !important;
+    }
+
+    .form-back .container-fluid .form-info {
+        width: 100% !important;
     }
 
 }
